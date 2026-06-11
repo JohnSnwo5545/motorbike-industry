@@ -3,6 +3,7 @@ body {
     padding: 0;
     color: white;
     background-color: black;
+    font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav .left h1 {
 nav .left p {
     margin-left: 20px;
     cursor: pointer;
+
 }
 
 nav .left p:hover {
@@ -34,27 +36,50 @@ nav .left p:hover {
 }
 
 nav .right button {
-    font-size:16px;
+    font-size: 16px;
     background-color: inherit;
-    cursor:pointer;
+    cursor: pointer;
 }
-nav .right button.login{
-border:none;
-color:white;
-}
-nav .right button.login:hover{
-cursor: pointer;
-}
-nav .right button.signup{
-    color:darkred;
-    padding: 5px 15px;
-    border:2px darkred solid;
-    border-radius:5px;
-     transition: background-color 0,5s , color 0,5s;
-}
-nav .right button.signup:hover{
-    background-color: darkred;
-    color:black;
-   
 
+nav .right button.login {
+    border: none;
+    color: white;
+}
+
+nav .right button.login:hover {
+    cursor: pointer;
+}
+
+nav .right button.signup {
+    color: darkred;
+    padding: 5px 15px;
+    border: 2px darkred solid;
+    border-radius: 5px;
+    transition: background-color 0, 5s, color 0, 5s;
+}
+
+nav .right button.signup:hover {
+    background-color: darkred;
+    color: black;
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    nav .left p {
+        display: none;
+    }
+}
+
+.page-content header {
+    display: flex;
+    align-items: center;
+
+}
+.page-content header .header-presentation{
+width:90%;
+
+}
+.page-content header .header-image img{
+width:100%;
 }
