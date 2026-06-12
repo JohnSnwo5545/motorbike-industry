@@ -69,6 +69,9 @@ nav .right button.signup:hover {
     nav .left p {
         display: none;
     }
+    .page-content{
+        margin:5%;
+    }
 }
 
 .page-content header {
@@ -76,10 +79,30 @@ nav .right button.signup:hover {
     align-items: center;
 
 }
-.page-content header .header-presentation{
-width:90%;
+
+.page-content header .header-presentation {
+    width: 90%;
 
 }
-.page-content header .header-image img{
-width:100%;
+
+.page-content header .header-presentation h1 {
+    margin: 0;
+    font-size: 35px;
+}
+.page-content header .header-presentation p{
+    font-weight:300;
+}
+
+.page-content header .header-image img {
+    width: 100%;
+}
+.page-content header .header-presentation button{
+    padding:0;
+    background-color:inherit;
+    border:none;
+    outline:none;
+}
+.page-content header .header-presentation button a{
+    text-decoration: none;
+     color:darkred;
 }
