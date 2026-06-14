@@ -69,8 +69,9 @@ nav .right button.signup:hover {
     nav .left p {
         display: none;
     }
-    .page-content{
-        margin:5%;
+
+    .page-content {
+        margin: 5%;
     }
 }
 
@@ -89,20 +90,37 @@ nav .right button.signup:hover {
     margin: 0;
     font-size: 35px;
 }
-.page-content header .header-presentation p{
-    font-weight:300;
+
+.page-content header .header-presentation p {
+    font-weight: 300;
 }
 
 .page-content header .header-image img {
     width: 100%;
 }
-.page-content header .header-presentation button{
-    padding:0;
-    background-color:inherit;
-    border:none;
-    outline:none;
+
+.page-content header .header-presentation button {
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    outline: none;
 }
-.page-content header .header-presentation button a{
+
+.page-content header .header-presentation button a {
     text-decoration: none;
-     color:darkred;
+    color: darkred;
+}
+
+.page-content.values {
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.page-content.values.values-card {
+    margin:10px;
+    width:20%;
+    padding:10px;
+    border:1px red solid;
 }
