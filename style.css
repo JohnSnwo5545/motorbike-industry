@@ -111,16 +111,17 @@ nav .right button.signup:hover {
     color: darkred;
 }
 
-.page-content.values {
+.page-content .values {
     margin-top: 7%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.page-content .values .value-card {
+    margin: 15px;
+    width: 20%;
+    padding: 20px;
+    border: 1px red solid;
 
 }
 
-.page-content.values.values-card {
-    margin:10px;
-    width:20%;
-    padding:10px;
-    border:1px red solid;
-}
