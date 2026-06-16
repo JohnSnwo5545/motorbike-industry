@@ -122,6 +122,7 @@ nav .right button.signup:hover {
     width: 20%;
     padding: 20px;
     border: 1px red solid;
+    flex-grow: 1;
 
 }
 
