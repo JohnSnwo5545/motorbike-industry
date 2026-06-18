@@ -65,19 +65,19 @@ nav .right button.signup:hover {
 
 }
 
-@media  screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     nav .left p {
         display: none;
     }
 
-    .page-content {
-     
+    .page-content {}
+
+    .page-content .values .value-card {
+        width: 100%;
+
     }
-    .page-content .values .value-card{
-        width:100%;
-        
-    }
-    .page-content .values .value-card h2{
+
+    .page-content .values .value-card h2 {
         margin: 0;
     }
 
@@ -134,3 +134,17 @@ nav .right button.signup:hover {
 
 }
 
+.page-content .team {
+    margin-top: 5%;
+
+}
+
+.page-content .team .presentation-team {
+    text-align: center;
+    line-height: 30px;
+    color:grey;
+}
+
+.page-content .team .presentation-team span {
+    color: darkred;
+}
