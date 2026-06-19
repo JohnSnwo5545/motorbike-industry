@@ -81,6 +81,13 @@ nav .right button.signup:hover {
         margin: 0;
     }
 
+    footer {
+        justify-content: center;
+    }
+
+    footer .footer-column {
+        width: 80%;
+    }
 }
 
 .page-content header {
@@ -142,9 +149,78 @@ nav .right button.signup:hover {
 .page-content .team .presentation-team {
     text-align: center;
     line-height: 30px;
-    color:grey;
+    color: grey;
 }
 
 .page-content .team .presentation-team span {
     color: darkred;
+
 }
+
+.page-content .team .image {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.page-content .team .image .profile {
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.page-content .team .image .one {
+    background-image: url('./img/photo-profil.jpg');
+}
+
+.page-content .team .image .two {
+    background-image: url('./img/moto2.jpg');
+}
+
+.page-content .team .image .three {
+    background-image: url('./img/moto1.png');
+}
+
+.page-content .team .profile h1 {
+    color: white;
+    margin: 0;
+
+}
+
+.page-content .team .profile p {
+    font-size: 13px;
+    color: darkred;
+    margin: 0;
+
+}
+
+footer {
+    margin: 10% 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px darkred solid;
+    border-bottom: none;
+
+}
+
+footer p {
+    font-size: 15px;
+    color: grey;
+    cursor: pointer;
+}
+
+footer p:hover {
+    color: blue;
+
+}
+
