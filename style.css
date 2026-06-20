@@ -70,10 +70,14 @@ nav .right button.signup:hover {
         display: none;
     }
 
-    .page-content {}
+    .page-content .values {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .page-content .values .value-card {
         width: 100%;
+        flex-grow: 1;
 
     }
 
@@ -129,7 +133,7 @@ nav .right button.signup:hover {
 .page-content .values {
     margin-top: 7%;
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .page-content .values .value-card {
@@ -137,7 +141,8 @@ nav .right button.signup:hover {
     width: 20%;
     padding: 20px;
     border: 1px red solid;
-    flex-grow: 1;
+
+
 
 }
 
@@ -223,4 +228,3 @@ footer p:hover {
     color: blue;
 
 }
-
